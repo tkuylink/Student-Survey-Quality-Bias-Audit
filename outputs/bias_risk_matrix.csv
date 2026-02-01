@@ -1,0 +1,8 @@
+bias_type,risk_level,evidence,mitigation_next_time
+Selection / volunteer bias,High,Voluntary responses; sample may over-represent students motivated to respond.,"Structured recruitment, track response rates, stratify by student groups."
+Time-window / burst collection bias,High,"Responses collected within ~2 day(s); may reflect a narrow moment (e.g., exams).",Collect over multiple weeks; add an exam-period indicator; compare early vs late responses.
+Demographic imbalance (Age group),Medium,Top category share is 60.6%; distribution may not represent the target population.,Use quotas/stratified sampling; publish subgroup counts; avoid population claims with low-N groups.
+Demographic imbalance (Gender),Medium,Top category share is 63.6%; distribution may not represent the target population.,Use quotas/stratified sampling; publish subgroup counts; avoid population claims with low-N groups.
+Demographic imbalance (Education level),High,Top category share is 72.7%; distribution may not represent the target population.,Use quotas/stratified sampling; publish subgroup counts; avoid population claims with low-N groups.
+Measurement / instrument bias,Medium,Stress frequency scale lacks 'Never/Rarely' which can inflate frequency estimates.,Use balanced Likert scale with clear anchors.
+Social desirability bias,Medium,Self-reported stress may be under/over-reported depending on context.,Anonymous collection; neutral wording; include validated scales where possible.

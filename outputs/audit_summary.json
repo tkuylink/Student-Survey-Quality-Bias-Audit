@@ -1,0 +1,122 @@
+{
+  "schema": {
+    "original_columns": [
+      "Timestamp",
+      "Age Group",
+      "  Gender\n  ",
+      "  Current Education Level  ",
+      "  How much academic pressure do you feel?  ",
+      " How often do you feel stressed due to studies?",
+      "  How many hours do you sleep on average per night?  ",
+      "  What is the main cause of your academic stress?  "
+    ],
+    "mapping_used": {
+      "Timestamp": "timestamp",
+      "Age Group": "age_group",
+      "  Gender\n  ": "gender",
+      "  Current Education Level  ": "education_level",
+      "  How much academic pressure do you feel?  ": "academic_pressure",
+      " How often do you feel stressed due to studies?": "stress_frequency",
+      "  How many hours do you sleep on average per night?  ": "sleep_hours",
+      "  What is the main cause of your academic stress?  ": "stress_cause"
+    },
+    "canonical_columns_present": [
+      "timestamp",
+      "age_group",
+      "gender",
+      "education_level",
+      "academic_pressure",
+      "stress_frequency",
+      "sleep_hours",
+      "stress_cause"
+    ],
+    "canonical_columns_missing": []
+  },
+  "profile": {
+    "n_rows": 33,
+    "n_cols": 10,
+    "columns": [
+      "timestamp",
+      "age_group",
+      "gender",
+      "education_level",
+      "academic_pressure",
+      "stress_frequency",
+      "sleep_hours",
+      "stress_cause",
+      "timestamp_parsed",
+      "academic_pressure_num"
+    ],
+    "missing_values": {
+      "timestamp": 0,
+      "age_group": 0,
+      "gender": 0,
+      "education_level": 0,
+      "academic_pressure": 0,
+      "stress_frequency": 0,
+      "sleep_hours": 0,
+      "stress_cause": 0,
+      "timestamp_parsed": 0,
+      "academic_pressure_num": 0
+    },
+    "missing_any_row": 0,
+    "duplicate_rows": 0
+  },
+  "time_window": {
+    "has_timestamp": true,
+    "min_timestamp": "2025-12-13 06:18:00",
+    "max_timestamp": "2025-12-14 05:30:00",
+    "calendar_days_covered": 2,
+    "responses_per_day": {
+      "2025-12-13": 5,
+      "2025-12-14": 28
+    },
+    "max_day_share": 0.8484848484848485
+  },
+  "imbalance_indicators": {
+    "age_group": {
+      "max_share": 0.6060606060606061,
+      "entropy": 1.092787363685926,
+      "effective_n": 2.98257602100463
+    },
+    "gender": {
+      "max_share": 0.6363636363636364,
+      "entropy": 0.6554817739013927,
+      "effective_n": 1.9260702242522327
+    },
+    "education_level": {
+      "max_share": 0.7272727272727273,
+      "entropy": 0.7595473914748635,
+      "effective_n": 2.137308637435014
+    }
+  },
+  "validity": {
+    "checks": [
+      {
+        "name": "academic_pressure_range_1_to_5",
+        "invalid_count": 0
+      },
+      {
+        "name": "stress_frequency_allowed_values",
+        "allowed": [
+          "Always",
+          "Often",
+          "Sometimes"
+        ],
+        "invalid_count": 0
+      },
+      {
+        "name": "timestamp_parse_rate",
+        "parsed_ok": 33,
+        "parsed_bad": 0
+      }
+    ]
+  },
+  "files": {
+    "processed_csv": "data\\processed\\processed_survey.csv",
+    "audit_summary": "outputs\\audit_summary.json",
+    "taxonomy_mapping": "outputs\\taxonomy_mapping.csv",
+    "grouped_stats": "outputs\\grouped_stats.csv",
+    "bias_risk_matrix": "outputs\\bias_risk_matrix.csv"
+  }
+}
